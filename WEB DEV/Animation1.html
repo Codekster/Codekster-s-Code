@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .inner{
+            margin-top: 100px;
+            margin-left: 200px;
+            height: 80px;
+            width: 200px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 1px 12px red;
+            background-image:linear-gradient(45deg,red 50% ,yellow 50%);
+            background-position: left ;
+            background-size: 200%;
+            transition: background-position .3s linear;
+           
+        }
+
+        .inner:hover {
+            background-position:right;
+            /* animation-name: colorchange;
+            animation-duration: 3s;
+            animation-iteration-count: 1; */
+            /* animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+
+        }
+
+        /* @keyframes colorchange {
+            0%{
+                background:linear-gradient(to right, blue 30%,red 70%,yellow 100%);
+            }
+
+            50%{
+                background:linear-gradient(to right, blue 60%,red 70%,yellow 100%);
+            }
+
+            100%{
+                background:linear-gradient(to right, blue 100%,red 70%,yellow 100%);
+            }
+
+        } */
+    </style>
+    <div class="main">
+        <div class="inner">
+
+        </div>
+    </div>
+</body>
+</html>

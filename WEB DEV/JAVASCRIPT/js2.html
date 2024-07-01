@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Javascript Code</title>
+</head>
+<body>
+
+    <style>
+        body{
+            background-color: cyan;
+
+        }
+
+        .mynav{
+            position: relative;
+            left: -100%;
+            height: 10vh;
+            width: 100%;
+            background-color: #fff;
+            display: flex;
+
+        }
+
+        ul{
+            display: flex;
+            list-style: none;
+        }
+    </style>
+    <div class="mynav" id="mynav">
+        <div class="logo">Logo</div>
+        <ul>
+            <li>HOME</li>
+            <li>HOME</li>
+            <li>HOME</li>
+            <li>HOME</li>
+            <li>HOME</li>
+        </ul>
+    </div>
+    <p id="para1"> Hello uncle namaste how are you</p>
+
+    <button onclick="open_mynav()" id="btn">Click</button>
+
+<!--    Do not use open() function as it is a predefined function in js-->
+
+    <script>
+        let x=document.getElementById("mynav");
+        document.write(x);
+        console.log(x);
+        function open_mynav(){
+            x.style.left="0%";
+            var btn=document.getElementById("btn");
+            btn.style.display="none";
+        }
+
+        let para1=document.getElementById("para2").innerText;
+        document.write(para1);
+    </script>
+</body>
+</html>

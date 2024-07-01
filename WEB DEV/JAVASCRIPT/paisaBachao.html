@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paisa bachana hai</title>
+</head>
+<body>
+    <h1 style="text-align: center">Paisa Bachao Scheme</h1>
+    <br>
+    <h1>Total Money: 300</h1>
+    <button id="btn" onclick="moneyRed()">Add Expense</button>
+    <script>
+        let total=300;
+        let money=300;
+        // document.write("total money is:",total);
+        function moneyRed(){
+            let val=prompt("enter today's expenditure: ");
+            money=money-val;
+            document.write(" <br> <br> <hr> money left is: ",money)
+           
+        }
+
+        
+
+    </script>
+</body>
+</html>

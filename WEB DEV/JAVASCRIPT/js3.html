@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>
+        Welcome to javascript class. Taking the input using html tag
+    </h1>
+    <input type="text" id="nm1">
+    <button onclick="get_value()">Submit</button>
+    <p id="display"></p>
+
+    <script>
+        // let x=document.getElementById("nm1").value
+        function get_value(){
+            let x=document.getElementById("nm1").value;
+            document.getElementById("display").innerHTML=x;
+
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+.anm1{
+    height:200px;
+    width:200px;
+    background-color:blue;
+    animation-name:anm1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position:relative;
+
+
+}
+
+@keyframes anm1{
+    from{
+        background-color: blueviolet;
+        left:0px;
+        background-image:url("box3_image.jpg");
+        background-size:cover;
+    }
+
+    to{
+        background-color:red;
+        left:800px;
+        border-radius:50px;
+        background-image:url("box2_image.jpg");
+        background-size:cover;
+    }
+}

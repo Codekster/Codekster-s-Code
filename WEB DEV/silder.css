@@ -1,0 +1,96 @@
+.next1{
+    height: 480vh;
+    width:100%;
+    background-color: aliceblue;
+    position: absolute;
+    /* overflow-x: hidden; */
+}
+
+.next1 .homeb1{
+    height:95vh;
+    width:100%;
+    position: absolute;
+    /* background: url("box2_image.jpg"); */
+    background-size:cover;
+    background-repeat: no-repeat;
+    overflow:hidden;
+
+}
+
+.next1 .homeb1 .box{
+    position:absolute;
+    width: 400%;
+    height:95vh;
+    /* background:url("WEB DEV/662231.jpg"); */
+    background-color: blue;
+    animation-name: box;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+    animation-timing-function: cubic-bezier(0.075, 1, 0.165, 1);
+    display:flex;
+}
+
+.next1 .homeb1 .box .b1, .b2, .b3, .b4{
+    width: 100%;
+    height:100%;
+    /* background-repeat:no-repeat;
+    background-size: cover; */
+}
+
+/* .next1 .homeb1 .box .b1-img{
+    width: 100%;
+    height:100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.next1 .homeb1 .box .b2-img{
+    width: 100%;
+    height:100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.next1 .homeb1 .box .b3-img{
+    width: 100%;
+    height:100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.next1 .homeb1 .box .b4-img{
+    width: 100%;
+    height:100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+} */
+
+@keyframes box{
+    0%{
+        left:0%;
+    }
+    25%{
+        left:-100%;
+
+    }
+    75%{
+        left:-200%;
+
+    }
+    100%{
+        left:-300%;
+    }
+}
+
+/* .next1 .homeb1 .box1{
+    margin-top: 260px;
+    height:60vh;
+    width:100%;
+    align-items: center;
+    background-color: transparent;
+    justify-content: space-between;
+    position:absolute;
+    display:flex;
+
+} */
+
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .form1 {
+            margin: auto;
+            margin-top: 100px;
+            padding-top: 80px;
+            box-shadow: 10px 10px 10px;
+            border-radius: 7%;
+
+            text-align: center;
+            height: 300px;
+            width: 250px;
+
+            background-image: linear-gradient(yellow, orange);
+        }
+
+        #dob {
+            border-radius: 7px;
+        }
+        #male,
+        #female{
+            height: 5px;
+            width:5px;
+            border: solid 2px;
+            border-color: aliceblue;
+           
+            border-radius: 5px;
+
+        }
+        #radio1 , #radio2{
+            display: none;
+        }
+        #radio1:checked+label,
+        #radio2:checked+label{
+            background-color: rgb(157, 63, 207);
+            transition: 250ms;
+
+        }
+       
+        
+    </style>
+    <form autocomplete="off" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScU7OK5gz7LeubFfYziVYhwbjS-MS-DKNAeEUxLkJIcoySm3g/formResponse">
+        <div class="form1">
+            <label for="text1">Full Name</label><br>
+            <input type="text " name="entry.902673553" id="text1" placeholder="enter the text">
+            <br><br>
+            <input type="radio" id="radio1" name="entry.1623602268" value="Male">
+            <label for="radio1" id="male">Male</label>
+
+            <input type="radio" id="radio2" name="entry.1623602268" value="Female">
+            <label for="radio2" id="female">Female</label>
+            <br><br>
+            <label for="dob">Date of birth</label>
+            <br>
+            <input type="date" id="dob" name="entry.1317784005">
+            <br><br>
+            <label for="select">Favorite Drink</label>
+            <br>
+            <select  id="select" placeholder="drinks" name="entry.2095365348"  >
+                <option value="" selected>Choose an Option</option>
+                <option name="entry.2095365348" value="Coke">Coke</option>
+                <option name="entry.2095365348" value="Pepsi">Pepsi</option>
+                <option name="entry.2095365348" value="Mirinda">Mirinda</option>
+                <option name="entry.2095365348" value="7UP">7up</option>
+            </select>
+            <br><br>
+            <input type="submit">
+
+
+        </div>
+    </form>
+</body>
+
+</html>

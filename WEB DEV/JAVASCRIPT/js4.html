@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    .tbdt{
+        color:red;
+    }
+</style>
+    <h1>Javascript</h1>
+    
+    <table id="mytbl">
+
+    </table>
+
+    <script>
+      let a=20;
+      let b=33;
+      document.getElementById("mytbl").innerHTML=`
+        <tr>
+          <td class="tbdt">${a}</td>
+          <td>${b}</td>
+        </tr>
+        
+
+      `;
+    </script>
+
+    
+</body>
+</html>
