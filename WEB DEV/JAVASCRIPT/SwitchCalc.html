@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    #start{
+        height: 60px;
+        width: 300px;
+        background:linear-gradient( 45deg,rgb(255, 145, 0),rgb(201, 20, 50));
+        border:none;;
+        border-radius: 10px;
+        background-size: 200%;
+        background-position: left;
+        transition: all .5s ease-in;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        font-weight: 900;
+        color: White
+
+    }
+
+    #start:hover{
+        background-position: right;
+    }
+
+   
+</style> 
+<h1>This is your calculator</h1>
+<br><br>
+<label for="num1">Enter first number: </label>
+<input type="text" id="num1">
+<br><br>
+<label for="num2">Enter second Number: </label>
+<input type="text" id="num2">
+<br>
+<br>
+
+<button id="start" onclick="CalciStart()" >Start The Calculator</button>
+<h1 id="result"></h1>
+
+
+
+<script>
+   function CalciStart(){
+       let num1=parseInt(document.getElementById("num1").value);
+
+       let num2=parseInt(document.getElementById("num2").value);
+       let opn=prompt("enter the operation: ","add, multiply,divide,subtract,exponent");
+
+       switch (opn) {
+           case "add":
+               document.getElementById("result").innerText=`Answer: ${num1+num2}`;
+               break;
+           case "multiply":
+               document.getElementById("result").innerText=`Answer: ${num1*num2}`;
+               break;
+
+           case "divide":
+               document.getElementById("result").innerText=`Answer: ${num1/num2}`;
+               break;
+
+           case "subtract":
+               document.getElementById("result").innerText=`Answer: ${num1-num2}`;
+               break;
+
+           case "exponent":
+               document.getElementById("result").innerText=`Answer: ${num1**num2}`;
+               break;
+           default:
+               document.getElementById("result").innerText="Wrong choice"
+
+       }
+   }
+
+</script>
+</body>
+</html>
