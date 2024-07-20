@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="images">
+    
+      
+       
+    </div>
+    <script>
+        let arr=['box7_image.jpg', 'Designer (1).png', 'Designer (2).png', 'Designer.png'];
+        let arr1=["Description 1", "description 2", "description 3","description 4"];
+        let outDiv=document.getElementById("images");
+
+        for( i=0;i<4;i++){
+            outDiv.innerHTML+=`
+                 <div id="description">
+                    <img src="${arr[i]}" alt=" NO IMAGES">
+                  
+                   <h3> ${arr1[i]}</h3>
+                </div>
+            
+            `
+        }
+
+
+
+    </script>
+
+    <style>
+        #images{
+            height:30vh;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+
+        }
+
+        #description{
+            /* padding-top: 10px; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 90%;
+            width:20%;
+            border: 2px solid red;
+            border-radius:10px;
+            transition: all 0.3s ease-in;
+        }
+        #description img{
+            height:60%;
+            width: 80%;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+
+        #description:hover{
+            scale:1.1;
+        }
+    </style>
+</body>
+</html>

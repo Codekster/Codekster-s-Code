@@ -2,38 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Title</title>
 </head>
 <body>
-    <style>
-        .navigation{
-            height: 80px;
-            width: 100%;
+<nav id="NavBar">
+
+</nav>
+<script>
+    let navBar = document.getElementById("NavBar");
+    navBar.innerHTML += <h1>ARROW--></h1>
+    let ul = `<ul id="navul">
+
+        </ul>`
+    navBar.innerHTML += ul;
+    let arr = ["Home", "Gallery", "About", "Contact"];
+    let ulNav = document.getElementById("navul");
+    arr.map((value) => {
+        let element = <li><a href="#${value}">${value}</a></li>;
+        ulNav.innerHTML += element;
+    })
+</script>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Fira Code",serif;
+        font-variant-ligatures: normal;
+    }
+
+    #NavBar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 25px;
+        background: #131921;
+        color: beige;
+        height: 50px;
+    }
+
+    #navul {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 50px;
+        list-style: none;
+
+        & li a {
+            text-decoration: none;
+            color: beige;
         }
-
-        .innerNav{
-            height: 100%;
-            width: 100%;
-        }
-    </style>
-    <script>
-        let arr1=["HOME","ABOUT","PRODUCTS", "SALE & OFFERS", "COURSES"];
-        arr1.map((value)=>{
-            let good=" ";
-            document.write(value)
-            // document.getElementById("innerNav").innerHTML=`
-            //         <a href="#">${value}</a>
-            
-            // `
-        })
-    </script>
-
-    <nav id="navgation" class="navigation">
-        <div class="innerNav" id="innerNav">
-           
-
-        </div>
-    </nav>
+    }
+</style>
 </body>
 </html>
