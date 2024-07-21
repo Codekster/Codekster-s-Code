@@ -17,10 +17,10 @@ class graph{
         }
     }
 
-    void addEdge(int source,int destination,){
+    void addWeight(int source,int destination, int weight){
         // connecting two vertices of a graph
-        g1[source][destination]=1;
-        g1[destination][source]=1;// since the graph is undirected
+        g1[source][destination]=weight;
+        g1[destination][source]=weight;// since the graph is undirected
 
     }
 // printing the graph
@@ -32,20 +32,21 @@ class graph{
             cout<<endl;
         }
     }
-};
 
+    bool findLink(int x,int y){
+    return g1[x][y]!=0;
+}
+};
 
 
 int main(){
     graph ob1(5);
-    for(int i=0;i<6;i++){
-        for(int j=0;j<6;j++){
-            cout<<"Do you want to connect "<<i<<" & "<<j<<" ? "<<endl<<"enter the edge lenght";
-            int flag;
-            cin>>flag;
-            if(flag==1){
-                ob1.addEdge(i,j);
-            }
+    for(int i=0;i<4;i++){
+        for(int j=i;j<4;j++){
+            cout<<"Do you want to connect "<<i<<" & "<<j<<" ? "<<endl<<"enter the weight";
+            int weight;
+            cin>>weight;
+            ob1.addWeight(i,j,weight);
          
             
         }
@@ -53,7 +54,13 @@ int main(){
 cout<<endl;
     ob1.printGraph();
 
-   
+     bool link=ob1.findLink(2,3);
+    if(link==true){
+        cout<<"link exists between 2 & 3"<<endl;
+    }
+    else{
+        cout<<"link doesn't exist"<<endl;
+    }
     
 
 }
