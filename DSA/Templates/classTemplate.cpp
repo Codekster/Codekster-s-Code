@@ -2,6 +2,7 @@
 using namespace std;
 template <typename tt> class MyClass{
     tt data;
+    //this is a test scenario
 
     public:
     void setData(){
