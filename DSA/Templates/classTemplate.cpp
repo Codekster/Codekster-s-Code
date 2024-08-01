@@ -9,6 +9,7 @@ template <typename tt> class MyClass{
         
         data.getDetails();
         cout<<"set data is called"<<endl;
+        cout<<"hello world"<<endl;
         
     }
 
