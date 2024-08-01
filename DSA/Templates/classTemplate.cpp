@@ -3,11 +3,12 @@ using namespace std;
 template <typename tt> class MyClass{
     tt data;
     //this is a test scenario
-
+    
     public:
     void setData(){
         
         data.getDetails();
+        cout<<"set data is called"<<endl;
         
     }
 
