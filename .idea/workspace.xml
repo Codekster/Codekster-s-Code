@@ -9,7 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05b7b25d-cd8f-4b6d-8da7-16f72a680e24" name="Changes" comment="" />
+    <list default="true" id="05b7b25d-cd8f-4b6d-8da7-16f72a680e24" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/graph/graphByList1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/graph/graphByList1.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,45 +40,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.js1.html.executor": "Debug",
-    "Node.js.LEARNjs1.js.executor": "Run",
-    "Python.FILTER.executor": "Run",
-    "Python.ListExchange.executor": "Run",
-    "Python.NumberGame.executor": "Run",
-    "Python.Question.executor": "Run",
-    "Python.Sets&Methods.executor": "Run",
-    "Python.StringExperiment.executor": "Run",
-    "Python.dict1.executor": "Run",
-    "Python.lambdaFun.executor": "Run",
-    "Python.list1.executor": "Run",
-    "Python.mapFun.executor": "Run",
-    "Python.patterns1.executor": "Run",
-    "Python.tempCodeRunnerFile.executor": "Run",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Python",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.js1.html.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.LEARNjs1.js.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FILTER.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ListExchange.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NumberGame.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Question.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Sets&amp;Methods.executor&quot;: &quot;Run&quot;,
+    &quot;Python.StringExperiment.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dict1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lambdaFun.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mapFun.executor&quot;: &quot;Run&quot;,
+    &quot;Python.patterns1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tempCodeRunnerFile.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Python&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
       </set>
     </attachedChunks>
   </component>
@@ -97,6 +100,10 @@
       <workItem from="1719495077979" duration="2763000" />
       <workItem from="1719579315806" duration="2678000" />
       <workItem from="1719740517631" duration="2214000" />
+      <workItem from="1719927396482" duration="3357000" />
+      <workItem from="1722015909723" duration="598000" />
+      <workItem from="1722146743546" duration="1000" />
+      <workItem from="1722518440539" duration="2233000" />
     </task>
     <servers />
   </component>
