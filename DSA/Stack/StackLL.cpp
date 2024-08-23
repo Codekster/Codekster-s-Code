@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+// #include<iostream>
 using namespace std;
 
 
@@ -32,10 +33,33 @@ void top(myStack* head){
 }
 
 
-
+void display(myStack* head){
+    while (head!=NULL)
+    {
+        /* code */
+        cout<<head->data<<" -- ";
+        head=head->next;
+    }
+    
+}
 
 int  main(){
     myStack* head= new myStack(1);
+
+push(head,2);
+push(head,3);
+push(head,24);
+push(head,25);
+push(head,26);
+push(head,27);
+
+display(head);
+cout<<endl;
+pop(head);
+cout<<endl;
+display(head);
+
+
     
   
 }
