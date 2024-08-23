@@ -20,7 +20,7 @@ class nodeStack{
 };
 void push(nodeStack* &head,int data){
     if(Count==Size){
-        cout<<"overflow !!! chutiye stack full hai"<<endl;
+        cout<<"overflow !!!  stack full hai"<<endl;
         return;
     }
     nodeStack* new_node=new nodeStack(data);
@@ -41,13 +41,15 @@ void top(nodeStack* head){
     cout<< head->info;
 }
 
-void pop(nodeStack* head){
+void pop(nodeStack* &head){
     if(Count==0){
         cout<<"UNDERFLOW!! stack khali hai bhai";
         return;
     }
     nodeStack* temp=head;
     head=head->next;
+    cout<<"deleted element is: "<<temp->info<<endl;
+    delete temp;
     Count--;
 
 
