@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Profile hai</h1>
+{% if pic %}
+{% for i in pic %}
+    <img src="{{i.picture.url}}" alt="image1" enctype="multipart/form-data"/>
+    <br><br>
+    <a href="/Upload">Update Your Picture</a>
+    
+{% endfor %}
+{% else %}
+    <a href="/Upload">Upload Your Picture</a>
+
+{% endif %}
+
+
+    <br><br><br>
+    <h1>{{data.name}}</h1>
+    <h1>{{data.email}}</h1>
+    <h1>{{data.password}}</h1>
+
+<a href="/Logout">Logout</a>
+
+<hr><br><a href="/Update">Edit</a>
+<hr><br><a href="/Delete">Delete</a>
+
+{% endblock  %}
